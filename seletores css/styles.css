@@ -1,0 +1,87 @@
+
+div{
+    width: 40px;
+    height: 40px;
+    border: solid;
+    text-align: center;
+    line-height: 250%;
+    margin-top: 4px;
+}
+
+div:hover{
+    background-color: aqua;
+}
+
+section:has(div:hover){
+border: 2px solid red;
+}
+
+div:nth-child(2){
+    background-color: rgb(245, 82, 180);
+}
+
+div::first-letter{
+    font-size: 40px;
+}
+
+div::before{
+   content: ""; 
+  height: 6px;
+  width: 2px;
+  background-color: darkseagreen;
+  display: block;
+}
+
+
+ /* Estilo básico do botão */
+ .botao {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+/* Pseudo-classe :hover para mudar a cor de fundo quando o mouse está sobre o botão */
+.botao:hover {
+    background-color: #45a049;
+}
+
+/* Pseudo-elemento ::before para adicionar um efeito de borda antes do conteúdo do botão */
+.botao::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: height 0.3s ease;
+}
+
+/* Aumenta a altura do pseudo-elemento ::before quando o botão é focado ou o mouse passa sobre ele */
+.botao:focus::before,
+.botao:hover::before {
+    height: 100%;
+}
+
+/* Pseudo-elemento ::after para adicionar texto decorativo após o conteúdo do botão */
+.botao::after {
+    content: ' ➔';
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: right 0.3s ease;
+}
+
+/* Move o texto decorativo para a direita quando o botão é focado ou o mouse passa sobre ele */
+.botao:focus::after,
+.botao:hover::after {
+    right: 5px;
+}

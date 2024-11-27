@@ -1,0 +1,35 @@
+div, span{
+    width: 200px;
+    height: 100px;
+    border: solid;
+}
+
+.padding{
+    padding: 20px 40px 0 10px;
+ 
+}
+
+.caixa1 {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.caixa2 {
+    background-color: lightcoral;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.caixa3 {
+    background-color: lightgreen;
+    padding: 0 15px 10px 25px;
+    margin-bottom: 20px;
+}
+
+.caixa4 {
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: lightyellow;
+}

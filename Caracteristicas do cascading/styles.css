@@ -1,0 +1,20 @@
+
+
+#list{
+    color:blue;
+}
+
+ol li{
+    color: red;
+}
+
+.text{
+    color: darkviolet;
+    font-size: 20px;
+}
+
+p{
+    color: rgb(211, 84, 0);
+    font-size: 20px;  
+}
+

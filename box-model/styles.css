@@ -1,0 +1,17 @@
+.caixa {
+    width: 300px;             /* Largura do conteúdo */
+    height: 200px;            /* Altura do conteúdo */
+    padding: 20px;            /* Espaço interno ao redor do conteúdo */
+    border: 5px solid black;  /* Borda ao redor do preenchimento */
+    margin: 10px;             /* Espaço externo ao redor da borda */
+    background-color: rgb(182, 35, 153); /* Cor de fundo do conteúdo */
+    text-align: center;
+}
+
+h1{
+    border: 1px solid red;
+}
+
+p{
+    border: 1px solid red;
+}

@@ -1,0 +1,30 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+}
+
+.exem1{
+   
+    background-color: blueviolet;
+  
+}
+
+.exem2{
+  
+    background-image:linear-gradient(to right, #ff7e5f, #feb47b) ;
+}
+
+.exem3{
+ 
+    background-image: url("img.jpg");
+    background-repeat: repeat;
+}
+
+.exem4{
+ 
+    background-image: url("sol.jpg");
+    background-position: center;
+    background-size: cover;
+}

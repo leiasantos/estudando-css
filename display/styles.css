@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Block */
+.block-example {
+    display: block;
+    width: 100%;
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Inline */
+.inline-example {
+    display: inline;
+    background-color: lightcoral;
+    padding: 10px;
+    color: white;
+}
+
+/* Inline-block */
+.inline-block-example {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Flex */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.flex-item {
+    background-color: lightcoral;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* None */
+.none-example {
+    display: none;
+}

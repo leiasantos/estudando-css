@@ -1,0 +1,73 @@
+.border{
+    border: 4px solid blue;
+}
+
+.caixa {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #3498db; /* Borda sólida azul */
+    border-radius: 15px;       /* Bordas arredondadas */
+    padding: 20px;             /* Espaçamento interno */
+    background-color: #f0f8ff; /* Cor de fundo */
+}
+
+.solida {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.tracejada {
+    border: 3px dashed red;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.pontilhada {
+    border: 3px dotted green;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.dupla {
+    border: 6px double blue;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sulcada {
+    border: 3px groove orange;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.inserida {
+    border: 3px inset purple;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sobressalente {
+    border: 3px outset brown;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sulcada_sulca {
+    border: 3px ridge violet;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.borda {
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+  }
+  

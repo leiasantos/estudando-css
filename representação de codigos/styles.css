@@ -1,0 +1,18 @@
+
+  code {
+    background-color: #f7c2a5;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  
+  pre {
+   background-color: chartreuse;
+    color: #0e0e01;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+  
+  }
+
+

@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 20px;
+}
+.box-px {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+.box-em {
+    width: 30em;
+    height: 10em;
+    background-color: lightgreen;
+    margin-bottom: 20px;
+}
+.box-rem {
+    width: 20rem;
+    height: 10rem;
+    background-color: lightcoral;
+    margin-bottom: 20px;
+}
+.box-vw {
+    width: 50vw;
+    height: 25vh;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+}
+.box-ch {
+    width: 40ch;
+    background-color: lightpink;
+    margin-bottom: 20px;
+}

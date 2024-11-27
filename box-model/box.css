@@ -1,0 +1,39 @@
+
+
+div{
+    background-color: aqua;
+    font-size: 28px;
+    color: blue;
+    text-align: center;
+  
+    /* Content: Width(largura) e height(altura)*/
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+
+      /* padding: preenchimento */
+
+      padding:25px;
+
+      /* border */
+
+      border: 10px dashed rgba(0,0,0,0.18);
+
+    /* margin: margem */
+
+   margin: 0 auto;
+    
+
+}
+
+span{
+  display: inline-block;
+   background-color: blueviolet; 
+   font-size: 28px;
+   color: rgb(239, 239, 246);
+  
+   width: 500px;
+   height: 500px;
+}
+
+

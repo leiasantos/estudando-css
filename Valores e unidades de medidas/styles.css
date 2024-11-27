@@ -1,0 +1,43 @@
+body {
+    font-size: 16px; /* Tamanho base da fonte */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;       /* 80% da largura da viewport */
+    max-width: 1200px; /* Largura máxima de 1200px */
+    margin: 0 auto;    /* Centraliza horizontalmente */
+    padding: 2rem;     /* Espaçamento interno de 2 vezes o tamanho da fonte raiz */
+    background-color: #f4f4f4;
+}
+
+.header {
+    font-size: 3rem;   /* Tamanho da fonte 3 vezes o tamanho da fonte raiz */
+    text-align: center;
+    padding: 1em 0;    /* Espaçamento interno vertical de 1 vez o tamanho da fonte do elemento pai */
+    background-color: #007bff;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;          /* Espaçamento fixo de 20px entre os elementos */
+    margin-top: 2rem;   /* Margem superior de 2 vezes o tamanho da fonte raiz */
+}
+
+.content .box {
+    flex: 1;           /* Cada box ocupa uma fração igual do espaço disponível */
+    padding: 20px;      /* Espaçamento interno fixo de 20px */
+    background-color: #e9ecef;
+}
+
+.footer {
+    font-size: 1rem;    /* Tamanho da fonte igual ao tamanho da fonte raiz */
+    text-align: center;
+    padding: 1vh 0;     /* Espaçamento interno vertical de 1% da altura da viewport */
+    background-color: #343a40;
+    color: white;
+    margin-top: 3rem;   /* Margem superior de 3 vezes o tamanho da fonte raiz */
+}

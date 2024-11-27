@@ -1,0 +1,26 @@
+div,span{
+    border: solid red;
+}
+.margin{
+ margin:30px;
+}
+
+
+.caixa1 {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.caixa2 {
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px 30px;
+}
+
+.caixa3 {
+    background-color: lightcoral;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
