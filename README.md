@@ -223,56 +223,143 @@ Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de p
 <p>Esse elemento define a borda de um elemento.</p>
 <p>Estilos de bordas:</p>
 
-<ul>
-  <li>dotted</li>
-  <li>dashed</li>
-  <li>solid </li>
-  <li> double</li>
-    <li>groove </li>
-  <li>ridge</li>
-    <li> outset</li>
-</ul>
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Estilo de Borda</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>dotted</td>
+      <td>Borda pontilhada, formada por pequenos pontos.</td>
+    </tr>
+    <tr>
+      <td>dashed</td>
+      <td>Borda tracejada, formada por linhas interrompidas.</td>
+    </tr>
+    <tr>
+      <td>solid</td>
+      <td>Borda sólida, uma linha contínua sem interrupções.</td>
+    </tr>
+    <tr>
+      <td>double</td>
+      <td>Borda composta por duas linhas contínuas separadas por um espaço.</td>
+    </tr>
+    <tr>
+      <td>groove</td>
+      <td>Borda com um efeito tridimensional que parece estar "entalhada" na superfície.</td>
+    </tr>
+    <tr>
+      <td>ridge</td>
+      <td>Borda com um efeito tridimensional que parece estar "elevada" da superfície.</td>
+    </tr>
+    <tr>
+      <td>outset</td>
+      <td>Borda com efeito de elevação, parecendo que a borda sai para fora da superfície.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 <h2>Width e Height</h2>
-<p>Width </p>
-<ul>
-  <li>width: define a largura do elemento </li>
-  <li>min-width: largura mínima</li>
-  <li>max-width: largura máxima</li>
-  <li></li>
-</ul>
-
-<p>Height</p>
-<ul>
-  <li>height: define a altura do elemento </li>
-  <li>min-height: altura mínima</li>
-  <li>max-height: altura máxima</li>
-</ul>
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Propriedade</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>width</td>
+      <td>Define a largura do elemento.</td>
+    </tr>
+    <tr>
+      <td>min-width</td>
+      <td>Largura mínima.</td>
+    </tr>
+    <tr>
+      <td>max-width</td>
+      <td>Largura máxima.</td>
+    </tr>
+    <tr>
+      <td>height</td>
+      <td>Define a altura do elemento.</td>
+    </tr>
+    <tr>
+      <td>min-height</td>
+      <td>Altura mínima.</td>
+    </tr>
+    <tr>
+      <td>max-height</td>
+      <td>Altura máxima.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Margin</h2>
 <p>É usada para criar espaço ao redor de elementos, fora das bordas. Ela
 pode ser usada para adicionar espaçamento entre elementos ou para
 centralizar elementos dentro de um contêiner.</p>
 
-<ul>
-  <li>margin-top: define o espaço acima do elemento.</li>
-  <li>margin-right: define o espaço à direita do elemento.</li>
-  <li> margin-bottom: define o espaço abaixo do elemento.</li>
-  <li>margin-left: define o espaço à esquerda do elemento.</li>
-</ul>
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Propriedade</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>margin-top</td>
+      <td>Define o espaço acima do elemento.</td>
+    </tr>
+    <tr>
+      <td>margin-right</td>
+      <td>Define o espaço à direita do elemento.</td>
+    </tr>
+    <tr>
+      <td>margin-bottom</td>
+      <td>Define o espaço abaixo do elemento.</td>
+    </tr>
+    <tr>
+      <td>margin-left</td>
+      <td>Define o espaço à esquerda do elemento.</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Padding</h2>
 <p>É  usada para criar espaço interno ao redor do conteúdo de um elemento, dentro das suas bordas. Ele controla o espaçamento entre o conteúdo do elemento e suas bordas, afetando diretamente o tamanho do elemento sem alterar suas margens.</p>
 
-<ul>
-  <li>padding-top: indica qual o espaçamento superior no elemento.</li>
-  <li>padding-right: indica a distância aplicada no lado direito do elemento;</li>
-  <li>padding-bottom: indica a distância na parte inferior do conteúdo;</li>
-  <li>padding-left:  representa a distância no lado esquerdo do box;
-</li>
-</ul>
-
+<table border="1" cellpadding="10">
+  <thead>
+    <tr>
+      <th>Propriedade</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>padding-top</td>
+      <td>Indica qual o espaçamento superior no elemento.</td>
+    </tr>
+    <tr>
+      <td>padding-right</td>
+      <td>Indica a distância aplicada no lado direito do elemento.</td>
+    </tr>
+    <tr>
+      <td>padding-bottom</td>
+      <td>Indica a distância na parte inferior do conteúdo.</td>
+    </tr>
+    <tr>
+      <td>padding-left</td>
+      <td>Representa a distância no lado esquerdo do box.</td>
+    </tr>
+  </tbody>
+</table>
 <h2> Fontes e textos</h2>
  <table>
         <thead>
